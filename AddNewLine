@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class AddNewLine {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("enter any number");
+
+		int a = s.nextInt();
+		int b = a-- - --a;
+		int c = a--;
+		int d = a >> 2;
+		int e = a & b;
+
+		System.out.println("Value of b is" + b);
+		System.out.println("Value of c is" + c);
+		System.out.println("Value of d is" + d);
+		System.out.println("Value of e is" + e);
+		s.close();
+
+	}
+
+}
